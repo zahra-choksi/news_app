@@ -19,7 +19,6 @@ Clean Architecture is a software design philosophy that separates the concerns o
 
 The separation of concerns makes the codebase modular, scalable, and easy to maintain. Clean Architecture promotes testability and allows for the flexibility to change one layer without affecting others.
 
-![bloc.png](bloc.png)
 ## Code Pattern: BLoC
 
 BLoC is a state management pattern widely used in Flutter applications. It stands for Business Logic Component and separates the presentation layer from the business logic. Key components of the BLoC pattern include:
@@ -29,17 +28,6 @@ BLoC is a state management pattern widely used in Flutter applications. It stand
 - **Cubit**: A lightweight version of BLoC, suitable for simpler use cases.
 
 BLoC simplifies the UI by removing business logic, making the application more modular and testable. It also provides a clear separation between the UI and business logic.
-
-## Unit Testing
-
-Unit testing is a crucial aspect of software development, ensuring the reliability and stability of the codebase.
-
-Key testing libraries:
-
-- **bloc_test**: Facilitates testing BLoC components.
-- **mocktail**: Enables the creation of mock objects for testing.
-
-Unit tests in News4U cover various scenarios, including testing BLoC behavior, error handling, and data interactions.
 
 ## Libraries Used
 
@@ -61,7 +49,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/macxtor/news4u.git
+   git clone https://github.com/zahra-choksi/news_app.git
 2. Change into the project directory:
 
    ```bash
